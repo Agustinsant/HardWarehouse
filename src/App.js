@@ -1,8 +1,6 @@
 import { Routes, Route } from 'react-router'
 import Navbar from './components/Navbar'
-
-
-import './App.css';
+import Product from './components/Product';
 
 
 function App() {
@@ -18,9 +16,11 @@ function App() {
         <Route path='/monitores' element={'Monitores'} />
         <Route path='/perifericos' element={'Perifericos'} />
 
+        <Route path='/producto' element={<Product/>}/>
+
+
       </Routes>
 
-      <h1> Proyecto E-Commerce</h1>
     </div>
   );
 }
