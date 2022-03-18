@@ -24,7 +24,7 @@ import { Box } from "@mui/system";
 import { useTheme } from "@emotion/react";
 import { useParams } from "react-router";
 
-import { addToCart } from "../store/user";
+import { addToCart, removeFromCart } from "../store/user";
 
 function Product() {
   const { id } = useParams();
@@ -38,7 +38,8 @@ function Product() {
 
   useEffect(() => {
     dispatch(getSingleProduct(id));
-  }, [dispatch]);
+
+  }, [dispatch,id]);
 
   const steps = [1];
   const theme = useTheme();
@@ -53,7 +54,13 @@ function Product() {
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
   };
 
+  const removeFormCart = (productId) => {
+    dispatch(removeFromCart({ id: user.data._id, productId: productId }));
+  };
+
   if (!productos.singleProduct._id) return <h1> no hay datos</h1>;
+
+  let indexCarrito =user.data.carrito.map(product => product.product).indexOf(productos.singleProduct._id)
 
   return (
     <div className="marginContainer">
@@ -186,6 +193,20 @@ function Product() {
                     />
                   </Grid>
                   <Grid item xs={12}>
+
+                  {
+                    console.log(indexCarrito,"SOY INDEX CARRITO")}
+
+                   { indexCarrito !== -1 ?
+                    <button
+                      onClick={() => {
+                        removeFormCart(productos.singleProduct._id)
+                      }}
+                      className="button-addCarrito"
+                    >
+                      <p>Eliminar del carrito</p>
+                    </button>
+                    :
                     <button
                       onClick={() => {
                         dispatch(
@@ -203,6 +224,10 @@ function Product() {
                     >
                       <p>Agregar al carrito</p>
                     </button>
+                    
+                    
+                    }
+                   
                   </Grid>
                 </Grid>
               </Grid>

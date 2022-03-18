@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {
 
     Button,
@@ -26,8 +26,6 @@ function Checkout() {
     const user = useSelector((state) => state.user.data.data);
     const productoSingular = useSelector((state) => state.products.singleProduct)
 
-    console.log(user, "USER");
-
     const addition = (acc, currentvalue) => {
         return acc + currentvalue.price * currentvalue.cantidad;
     };
@@ -47,13 +45,13 @@ function Checkout() {
                 stock: parseInt(nuevoStock)
             }))    
         })
-
+        
         alertCheckout()
-
-
-        navigate("/carrito")
-
+        
         dispatch(buyCart({id:user._id}))
+        
+        navigate("/carrito")
+        
 
     }
 
@@ -217,8 +215,6 @@ function Checkout() {
                                         primary={total}
                                     />
                                 </ListItem>
-
-
                             </List>
                         </Grid>
 
