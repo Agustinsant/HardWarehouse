@@ -24,9 +24,6 @@ function ShoppingCart() {
   const cart = useSelector((state) => state.user.data.data.carrito);
   const user = useSelector((state) => state.user);
   const productos = useSelector((state) => state.products.data);
-
-  console.log(productos);
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

@@ -15,6 +15,7 @@ const AdminProductsList = () => {
 
   useEffect(() => {
     dispatch(getProducts())
+    dispatch(getSingleProduct())
   }, [])
 
   const handleClickEdit = async (productId) => {

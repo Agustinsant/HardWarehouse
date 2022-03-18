@@ -4,6 +4,7 @@ import useInput from "../hooks/useInput";
 import { useNavigate } from "react-router";
 import { useDispatch, useSelector } from "react-redux";
 import { sendLoginRequest } from "../store/user";
+import { alertLogin } from "../utils/alerts";
 
 const Login = () => {
   const user = useSelector((state) => state.user.data);
@@ -11,18 +12,16 @@ const Login = () => {
   const navigate = useNavigate();
   const email = useInput();
   const password = useInput();
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
     dispatch(
       sendLoginRequest({ email: email.value, password: password.value })
     );
-    alert("Logueo Exitoso");
+    alertLogin();
     navigate("/");
   };
   
-  console.log("LOGUEO DE USUARIO", user);
   
   const googleAuth = () => {
     window.open("http://localhost:3001/auth/google", "_self");
