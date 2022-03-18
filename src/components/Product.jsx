@@ -39,7 +39,7 @@ function Product() {
   useEffect(() => {
     dispatch(getSingleProduct(id));
 
-  }, [dispatch,id]);
+  }, [dispatch, id]);
 
   const steps = [1];
   const theme = useTheme();
@@ -59,8 +59,11 @@ function Product() {
   };
 
   if (!productos.singleProduct._id) return <h1> no hay datos</h1>;
+  let indexCarrito
+  if (user.data) {
 
-  let indexCarrito =user.data.carrito.map(product => product.product).indexOf(productos.singleProduct._id)
+    indexCarrito = user.data.carrito.map(product => product.product).indexOf(productos.singleProduct._id)
+  }
 
   return (
     <div className="marginContainer">
@@ -194,40 +197,39 @@ function Product() {
                   </Grid>
                   <Grid item xs={12}>
 
-                  {
-                    console.log(indexCarrito,"SOY INDEX CARRITO")}
 
-                   { indexCarrito !== -1 ?
-                    <button
-                      onClick={() => {
-                        removeFormCart(productos.singleProduct._id)
-                      }}
-                      className="button-addCarrito"
-                    >
-                      <p>Eliminar del carrito</p>
-                    </button>
-                    :
-                    <button
-                      onClick={() => {
-                        dispatch(
-                          addToCart({
-                            id: user.data._id,
-                            productId: productos.singleProduct._id,
-                            image: productos.singleProduct.image,
-                            title: productos.singleProduct.title,
-                            price: productos.singleProduct.price,
-                            cantidad: productos.singleProduct.quantity,
-                          })
-                        );
-                      }}
-                      className="button-addCarrito"
-                    >
-                      <p>Agregar al carrito</p>
-                    </button>
-                    
-                    
+                    {user.data ?
+                      (indexCarrito !== -1 ?
+                        <button
+                          onClick={() => {
+                            removeFormCart(productos.singleProduct._id)
+                          }}
+                          className="button-addCarrito"
+                        >
+                          <p>Eliminar del carrito</p>
+                        </button>
+                        :
+                        <button
+                          onClick={() => {
+                            dispatch(
+                              addToCart({
+                                id: user.data._id,
+                                productId: productos.singleProduct._id,
+                                image: productos.singleProduct.image,
+                                title: productos.singleProduct.title,
+                                price: productos.singleProduct.price,
+                                cantidad: productos.singleProduct.quantity,
+                              })
+                            );
+                          }}
+                          className="button-addCarrito"
+                        >
+                          <p>Agregar al carrito</p>
+                        </button>)
+                      :
+                      (<></>)
                     }
-                   
+
                   </Grid>
                 </Grid>
               </Grid>
