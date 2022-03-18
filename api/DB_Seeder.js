@@ -276,7 +276,7 @@ const connection = async () => {
 },
 {
     title: "Apple MacBook Pro",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1200,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -285,7 +285,7 @@ const connection = async () => {
 },
 {
     title: "Asus ZenBook UX425EA",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1100,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -294,7 +294,7 @@ const connection = async () => {
 },
 {
     title: "Asus Tuf Fx506",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -303,7 +303,7 @@ const connection = async () => {
 },
 {
     title: "Asus ZenBook Pro Duo UX482EG",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1500,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -312,7 +312,7 @@ const connection = async () => {
 },
 {
     title: "Asus Tuf Dash",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1200,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -321,7 +321,7 @@ const connection = async () => {
 },
 {
     title: "Lenovo V15",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -330,7 +330,7 @@ const connection = async () => {
 },
 {
     title: "Asus ROG Zephyrus G14 GA401QM",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 2000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -339,7 +339,7 @@ const connection = async () => {
 },
 {
     title: "Razer Blade 15",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 2000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -348,7 +348,7 @@ const connection = async () => {
 },
 {
     title: "Asus Rog G14",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1200,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -357,7 +357,7 @@ const connection = async () => {
 },
 {
     title: "Acer Nitro",
-    category: "notebook",
+    category: "notebooks",
     stock: 10,
     price: 1200,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
@@ -370,7 +370,7 @@ const connection = async () => {
     stock: 10,
     price: 5000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/835ab3efad1be13bbe53beef3e3c6f96.256p.jpg",
+    image: "https://cdna.pcpartpicker.com/static/forever/images/product/20348ef9eb7ca86600eefb50c6a56597.256p.jpg",
     tags: ["Memoria ram", "Memoria ram 16gb", "Corsair"] 
 },
 {
@@ -379,7 +379,7 @@ const connection = async () => {
     stock: 10,
     price: 6000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/5f09867b54e9ad932b4dd1bc767f6238.256p.jpg",
+    image: "https://cdna.pcpartpicker.com/static/forever/images/product/58ab1663c77627cbf3effd27df57aa92.256p.jpg",
     tags: ["Memoria ram", "Memoria ram 16gb", "Corsair", "ram"]
 },
 {
@@ -388,7 +388,7 @@ const connection = async () => {
     stock: 10,
     price: 10000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "	https://cdna.pcpartpicker.com/static/forever/image…product/4c2ef123fb2d1ef82864c76341f83e53.256p.jpg",
+    image: "https://cdna.pcpartpicker.com/static/forever/images/product/87cd8e9d02ffb0997769f4a4d5969669.256p.jpg",
     tags: ["Memoria ram", "Memoria ram 32gb", "Corsair", "ram"]
 },
 {
@@ -397,7 +397,7 @@ const connection = async () => {
     stock: 10,
     price: 10000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/4a3188102447720082ab1fc63606662f.256p.jpg",
+    image: "https://cdna.pcpartpicker.com/static/forever/images/product/835ab3efad1be13bbe53beef3e3c6f96.256p.jpg",
     tags: ["Memoria ram", "Memoria ram 32gb", "Corsair", "ram"]
 },
 {
@@ -451,7 +451,7 @@ const connection = async () => {
     stock: 10,
     price: 4000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/97e2bd828644767c8a80b71f8cb14743.256p.jpg",
+    image: "https://cdna.pcpartpicker.com/static/forever/images/product/ca0b46376f072d2483c385bad50c6310.256p.jpg",
     tags: ["disco", "Discos", "disco", "Disco ssd 120gb"]
 },
 {
@@ -460,7 +460,7 @@ const connection = async () => {
     stock: 10,
     price: 5000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/97e2bd828644767c8a80b71f8cb14743.256p.jpg",
+    image: "https://m.media-amazon.com/images/I/41UKoJx2tZL.jpg",
     tags: ["disco", "Discos", "discos", "Disco ssd 240gb"]
 },
 {
@@ -469,7 +469,7 @@ const connection = async () => {
     stock: 10,
     price: 7000,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-    image: "https://cdna.pcpartpicker.com/static/forever/image…product/97e2bd828644767c8a80b71f8cb14743.256p.jpg",
+    image: "https://m.media-amazon.com/images/I/31ITAX-GoIL.jpg",
     tags: ["disco", "Discos", "discos", "Disco ssd 480gb"]
 },
 ].forEach(async (element) => await ProductsServices.newProduct(element));
